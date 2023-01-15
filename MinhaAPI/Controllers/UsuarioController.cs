@@ -31,18 +31,21 @@ namespace MinhaAPI.Controllers
         [HttpPost]
         public void Post([FromBody] UsuarioModel usuario)
         {
+            //Para cadastrar
         }
 
         // PUT api/<UsuarioController>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] UsuarioModel usuario)
         {
+            //Para Atualizar
         }
 
         // DELETE api/<UsuarioController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+           // passando o id para deletar
         }
     }
 }
